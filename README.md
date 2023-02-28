@@ -1,7 +1,6 @@
 # get_next_line | rank 1 | 42 Porto
 
-This is my first programming graphic project!
-During the development of this project, I explored the main concepts about MiniLibX library to be able to code a simple 2D game. Also, I could learn about rendering, graphic management, color schemes and sprites and have a better understanding of Makefiles. 
+This project consists of reading a file (fd) line by line. During the development, I could learn a lot about how static variables work and how can I use them properly. as well as how files are opened, read and closed. One of my biggest lernings during the project was how to use `valgrind` and try to avoid memory leaks during the process.   
 
 ## 🎮 The game
 

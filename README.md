@@ -26,20 +26,7 @@ Maybe you could notice a different coding style. At 42 schools we need to follow
 
 ## ⚙️ Compilation
 
-To compile and run the project at the same time it's very easy, you can just follow the syntax below: 
-
-```sh
-$ make run arg=path_to_the_map_file.ber
-```
-Make sure you have the right path of the map, if you prefer you can also test the project with some of the maps that I have available in `/maps`. 
-For this, you can run one of the following commands in the terminal: 
-  
-```sh
-$ make run arg=maps/valid1.ber
-```
-```sh
-$ make run arg=maps/valid2.ber
-```
+This project doesn't have a Makefile. But you can compile and test it using the following syntax: 
   
 ## 💻 Languages & Tools
 <p align="left">

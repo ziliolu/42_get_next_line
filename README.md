@@ -6,7 +6,10 @@ This project consists of reading a file (fd) line by line. During the developmen
 
 ## :bookmark_tabs: Info
 ### Mandatory part
-- [x] teste
+- [x] Repeated calls (e.g., using a loop) to your get_next_line() function should let you read the text file pointed to by the file descriptor, one line at a time.
+- [x] Your function should return the line that was read. If there is nothing else to read or if an error occurred, it should return NULL.
+- [x] Make sure that your function works as expected both when reading a file and when reading from the standard input.
+- [x] The returned line should include the terminating \n character, except if the end of file was reached and does not end with a \n character.
 
 You can also take a look in the [complete subject]. 
 

@@ -4,8 +4,9 @@
 
 This project consists of reading a file (fd) line by line. During the development, I could learn a lot about how static variables work and how can I use them properly, as well as how files are opened, read and closed. One of my biggest challenges (and learnings!) during the project was how to deal with memory leaks and use `valgrind` to detect and analyse it.   
 
+# :bookmark_tabs: Info
 ## Mandatory part
-- [x]
+- [x] teste
 
 You can also take a look in the [complete subject]. 
 

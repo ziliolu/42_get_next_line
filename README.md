@@ -4,14 +4,8 @@
 
 This project consists of reading a file (fd) line by line. During the development, I could learn a lot about how static variables work and how can I use them properly, as well as how files are opened, read and closed. One of my biggest challenges (and learnings!) during the project was how to deal with memory leaks and use `valgrind` to detect and analyse it.   
 
-## 🎮 The game
-
-- The player’s goal is to collect every collectible present on the map, then escape
-chosing the shortest possible route.
-- The player should be able to move in these 4 directions: up, down, left, right.
-- The player should not be able to move into walls.
-- At every move, the current number of movements must be displayed in the shell (or on the screen, for bonus!).
-- You have to use a 2D view (top-down or profile)
+## Mandatory part
+- [x]
 
 You can also take a look in the [complete subject]. 
 

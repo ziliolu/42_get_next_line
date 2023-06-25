@@ -40,7 +40,7 @@ To install and play So_long, follow these steps:
 
 1. Clone the repository:
   ```bash
-  git clone git@github.com:ziliolu/42_so_long.git
+  git clone git@github.com:ziliolu/42_get_next_line.git
   ```
 2. Navigate to the project directory and compile it:
   ```bash

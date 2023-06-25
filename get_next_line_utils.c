@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lpicoli- < lpicoli-@student.42porto.com    +#+  +:+       +#+        */
+/*   By: lpicoli- <lpicoli-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 22:03:17 by lpicoli-          #+#    #+#             */
-/*   Updated: 2022/12/07 18:59:06 by lpicoli-         ###   ########.fr       */
+/*   Updated: 2023/06/25 21:22:12 by lpicoli-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,9 +79,3 @@ char	*ft_join_stash(char *stash, char *buffer)
 	free(stash);
 	return (tmp);
 }
-
-/* 
-int main()
-{
-	printf("%ld", ft_strlen("ola"));
-} */

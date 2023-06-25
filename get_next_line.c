@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lpicoli- < lpicoli-@student.42porto.com    +#+  +:+       +#+        */
+/*   By: lpicoli- <lpicoli-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 12:26:35 by lpicoli-          #+#    #+#             */
-/*   Updated: 2022/12/07 19:05:08 by lpicoli-         ###   ########.fr       */
+/*   Updated: 2023/06/25 21:20:27 by lpicoli-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,7 +89,7 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
-int main()
+/* int main()
 {
     int fd;
 
@@ -106,4 +106,4 @@ int main()
     ptr = get_next_line(fd);
     printf("%s", ptr);
     free(ptr);
-}
+} */

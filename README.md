@@ -9,7 +9,6 @@
 
 1. [About](#about)
 2. [Installation](#installation)
-4. [Testers](#testers)
 5. [Disclaimer](#disclaimer)
 
 ## About
@@ -57,10 +56,6 @@ To install and play So_long, follow these steps:
   ```bash
   ./42_so_long path_to_your_own_map
   ```
-
-## Testers 
-
-1. [Map Validator](https://github.com/Nuno-Jesus/so_long_map_validator) serves as an essential tool to validate and verify the format and correctness of the map, guaranteeing a reliable gameplay experience.
    
 ## Disclaimer 
 

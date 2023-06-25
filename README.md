@@ -13,6 +13,10 @@
 
 ## About
 
+The get_next_line project is a function in C that allows you to read one line at a time from a file or an input stream, such as standard input. The function should handle different file descriptors and read from multiple file descriptors without losing the reading thread.
+
+The function get_next_line takes a file descriptor as a parameter and returns the next line from the corresponding file. Each time the function is called, it reads from the file until it finds a newline character ('\n') or reaches the end of the file. It then returns the line as a string, including the newline character, or NULL if there are no more lines to read or if an error occurs.
+
 #### Prototype
 `char *get_next_line(int fd);`
 #### Return value
@@ -35,26 +39,27 @@ you read the text file pointed to by the file descriptor, one line at a time.
 - [X] Develop get_next_line() using only one static variable.
 - [X] Your get_next_line() can manage multiple file descriptors at the same time. For example, if you can read from the file descriptors 3, 4 and 5, you should be able to read from a different fd per call without losing the reading thread of each file descriptor or returning a line from another fd.
 
-[Click here](https://github.com/ziliolu/42_so_long/blob/main/so_long_subject.pdf) to access the complete subject of this project.
+[Click here](https://github.com/ziliolu/42_so_long/blob/main/get_next_line_subject.pdf) to access the complete subject of this project.
 
 ## Installation
 
-To install and play So_long, follow these steps:
+To install and use Get Next Line, follow these steps:
 
 1. Clone the repository:
   ```bash
   git clone git@github.com:ziliolu/42_get_next_line.git
   ```
-2. Navigate to the project directory and compile it:
+2. Add to your own project by including the library:
   ```bash
-  cd so_long && make
+  #include "get_next_line.h"
   ```
-3. Choose a map from `maps` folder or test with your own map
+3. Call the function passing the fd that should be read:
   ```bash
-  ./42_so_long maps/valid1.ber
+  get_next_line(fd) //it will return a char *
   ```
+4. You can also run my own test by compiling and running it:
   ```bash
-  ./42_so_long path_to_your_own_map
+  cc get_next_line.c get_next_line_utils.c main.c && ./a.out
   ```
    
 ## Disclaimer 

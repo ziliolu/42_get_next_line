@@ -18,7 +18,7 @@ The "so_long" project is a part of 42's curriculum and involves creating a 2D ga
 
 The project includes learning about file descriptors (fd) and their use in reading from a map file as well as how to deal with structs. These are important concepts in C programming, and this project provides an opportunity to practice both in a fun and engaging way.
 
-### Mandatory part 
+#### Mandatory part 
 
 - [X] Repeated calls (e.g., using a loop) to your get_next_line() function should let
 you read the text file pointed to by the file descriptor, one line at a time.

@@ -14,9 +14,13 @@
 
 ## About
 
-The "so_long" project is a part of 42's curriculum and involves creating a 2D game using C programming language and the MinilibX graphic library. The game requires players to navigate through a maze, collecting items and avoiding obstacles.
-
-The project includes learning about file descriptors (fd) and their use in reading from a map file as well as how to deal with structs. These are important concepts in C programming, and this project provides an opportunity to practice both in a fun and engaging way.
+#### Prototype
+`char *get_next_line(int fd);`
+#### Return value
+Read line: correct behavior
+NULL: nothing else to read or an error occurred
+#### External allowed functions
+`read`, `malloc`, `free`
 
 #### Mandatory part 
 

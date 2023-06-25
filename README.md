@@ -28,7 +28,12 @@ you read the text file pointed to by the file descriptor, one line at a time.
 - [X] Your header file get_next_line.h must at least contain the prototype of the get_next_line() function.
 - [X] Add all the helper functions you need in the get_next_line_utils.c file.
 
+#### Bonus part
+- [X] Develop get_next_line() using only one static variable.
+- [X] Your get_next_line() can manage multiple file descriptors at the same time. For example, if you can read from the file descriptors 3, 4 and 5, you should be able to read from a different fd per call without losing the reading thread of each file descriptor or returning a line from another fd.
+
 [Click here](https://github.com/ziliolu/42_so_long/blob/main/so_long_subject.pdf) to access the complete subject of this project.
+
 ## Installation
 
 To install and play So_long, follow these steps:
